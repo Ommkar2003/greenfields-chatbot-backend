@@ -16,7 +16,7 @@ app.use(express.json());
 
 const CONTACT_DETAILS = `
 <br><br>
-📞 <b>Phone:</b> +61 7750 817 880<br>
+📞 <b>Phone:</b>1300845156<br>
 📧 <b>Email:</b> <a href="mailto:info@greenfieldsre.com.au">info@greenfieldsre.com.au</a>
 `;
 
@@ -149,7 +149,7 @@ const LISTING_LINKS = [
   }
 ];
 
-const GENERAL_LISTINGS_URL = "https://greenfieldsre.com.au/properties";
+const GENERAL_LISTINGS_URL = "https://greenfieldsre.com.au/for-sale-properties/";
 
 /* =========================
    INTENT + HELPERS
