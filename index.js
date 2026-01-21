@@ -230,7 +230,7 @@ app.post("/chat", async (req, res) => {
     if (!leadExists) {
       if (looksLikeContactInfo(message)) {
         const reply =
-          "Thank you! Our team will reach out to you shortly. How can I assist you today?"+ CONTACT_DETAILS;
+          "Thank you! Our team will reach out to you shortly. How can I assist you today?";
 
         await Chat.create({
           sessionId,  
